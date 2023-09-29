@@ -1,0 +1,5 @@
+CREATE TABLE dog (
+	id INT IDENTITY(1,1) PRIMARY KEY,
+	breed INT NOT NULL,
+	color INT NOT NULL
+);
